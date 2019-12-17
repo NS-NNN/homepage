@@ -1,0 +1,45 @@
+.body {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-row-gap: 10em;
+}
+
+.result {
+  display: grid;
+  grid-auto-columns: 30em 1fr 1fr;
+  grid-column-gap: 5em;
+}
+
+.product {
+  width: 30em;
+  height: 20em;
+  background-size: cover;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.profile {
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end; 2;
+}
+
+.t {
+  font-weigth: bold;
+  font-size: 1.6em;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.descr {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}

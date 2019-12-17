@@ -1,0 +1,38 @@
+body {
+  background-color: #202020;
+  font-family: 'Oswald', 'Noto Sans KR', sans-serif;
+  color: #949494;
+}
+
+#title {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+#title > span {
+  color: #e44d26;
+  font-size: 4em;
+}
+
+.selection {
+  padding: 0.5em;
+}
+
+#about {
+  border-right-color: #949494;
+  border-right-width: 0.5em;
+}
+
+#member {
+  border-left-color: #949494;
+  border-left-width: 0.5em;
+  border-right-color: #949494;
+  border-right-width: 0.5em;
+}
+
+#result {
+  border-left-color: #949494;
+  border-left-width: 0.5em;
+  border-right-color: #949494;
+  border-right-width: 0.5em;
+}

@@ -1,0 +1,38 @@
+.body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 10em;
+  grid-column-gap: 5em;
+  /* TODO: place profile image and description as intended */
+}
+
+.member {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.profile {
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.name {
+  font-style: bold;
+  font-size: 1.6em;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.descr {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}

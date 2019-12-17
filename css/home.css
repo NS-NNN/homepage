@@ -1,0 +1,35 @@
+span {
+  color: #e44d26;
+  font-size: 4em;
+}
+
+#title {
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+.selection {
+  padding: 0.1em;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #949494;
+}
+
+#menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 2em;
+}
+
+#about {
+  border-right: 0.1em solid #949494;
+}
+
+#result {
+  border-left: 0.1em solid #949494;
+}
